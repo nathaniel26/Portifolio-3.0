@@ -1,0 +1,58 @@
+.corpo {
+  height: 3em;
+  width: 100%;
+  background-color: #605ae8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  border-bottom: 2px solid #484554;
+  position: fixed;
+}
+
+.corpo ul {
+  display: flex;
+}
+.corpo li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+.corpo li:hover {
+  color: #484554;
+  cursor: pointer;
+}
+
+.redes svg{
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 0.5em;
+}
+.redes a{
+    color: white;
+}
+
+.redes svg:hover {
+    color: #484554;
+    cursor: pointer;
+  }
+  
+
+@media screen and (max-width: 750px) {
+  .corpo ul {
+    display: none;
+  }
+
+  .menupcId{
+    display: none;
+  }
+
+  .redes{
+    display: none;
+  }
+
+
+}
