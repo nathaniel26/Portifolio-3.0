@@ -15,11 +15,11 @@ function Inicio() {
           Sou o<motion.span
           initial={{ opacity: 0}}
           animate={{ opacity: [ 0, 0 , 0 ,1]}}
-          transition={{ duration: 4 }}
+          transition={{ duration: 3 }}
           > Nathaniel Farias.</motion.span>
         </h2>
 
-        <p>Sou apaixonado por tecnlogias e games.</p>
+        <p>Sou apaixonado por técnlogias e games.</p>
         <p>
           Atualmente estou estudando para ser desenvolvedor web, mobile e
           desenvolvedor de games.
