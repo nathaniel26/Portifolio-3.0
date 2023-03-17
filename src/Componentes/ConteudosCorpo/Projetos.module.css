@@ -1,55 +1,84 @@
-.corpo{
+.corpo {
+  padding-bottom: 5em;
+}
+.corpo h1 {
+  padding-bottom: 1em;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+}
+
+.caixa {
+  background-color: rgb(46, 45, 45);
+  width: 40em;
+  height: 20em;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: #8c91f4;
+  display: flex;
+  align-items: center;
+}
+.caixa img {
+  width: 18em;
+  height: 18em;
+  margin-left: 1em;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.desc {
+  margin-left: 2em;
+  margin-right: 2em;
+  width: auto;
+  text-align: center;
+}
+.desc p {
+  text-align: justify;
+  padding: 0.5em 0;
+}
+
+.flechaEsquerda {
+  margin-right: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.flechaEsquerda svg {
+  width: 3em;
+  height: 3em;
+}
+.flechaDireita {
+  margin-left: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.flechaDireita svg {
+  width: 3em;
+  height: 3em;
+}
+
+@media screen and (max-width: 750px) {
+  .caixa {
+    display: block;
+    width: 30em;
+    height: 35em;
+  }
+
+  .caixa img {
+    width: 13em;
+    height: 13em;
+    margin-left: 0;
+    margin: .5em;
     
-}
-.corpo h1{
-    padding-bottom: 1em;
-
-}
-
-.carrossel{
-    display: flex;
-    justify-content: center;
-}
-
-
-.caixa{
-    background-color: rgb(46, 45, 45);
-    width: 40em;
-    height: 20em;
-    border: 2px solid white;
-    border-radius: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    
-}
-.caixa img{
-    width: 18em;
-    height: 18em;
+  }
+  .flechaDireita {
+    margin-left: 0;
+  }
+  .flechaEsquerda {
+    margin-right: 0;
+  }
+  .desc{
     margin-left: 1em;
-    
-}
-.caixa p{
-    margin-left: 2em;
-    margin-right: 2em;
-    width: auto;
-}
-
-.flechaEsquerda{
     margin-right: 1em;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.flechaEsquerda svg{
-    width: 3em;
-    height: 3em;
-}
-.flechaDireita{
-    margin-left: 1em; 
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.flechaDireita svg{
-    width: 3em;
-    height: 3em;
+  }
 }
