@@ -14,14 +14,25 @@
 
 .caixa{
     background-color: rgb(46, 45, 45);
-    width: 50em;
-    height: 15em;
+    width: 40em;
+    height: 20em;
+    border: 2px solid white;
+    border-radius: 20px;
     color: white;
-
+    display: flex;
+    align-items: center;
+    
 }
 .caixa img{
-    width: 7em;
-    height: 10em;
+    width: 18em;
+    height: 18em;
+    margin-left: 1em;
+    
+}
+.caixa p{
+    margin-left: 2em;
+    margin-right: 2em;
+    width: auto;
 }
 
 .flechaEsquerda{
