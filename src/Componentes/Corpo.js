@@ -1,6 +1,7 @@
 import styles from "../Componentes/Corpo.module.css";
 import Inicio from "./ConteudosCorpo/Inicio";
 import Habilidades from "./ConteudosCorpo/Habilidades";
+import Projetos from '../Componentes/ConteudosCorpo/Projetos'
 import foto from "../Imgs/div.png";
 function Corpo() {
   return (
@@ -10,6 +11,8 @@ function Corpo() {
       <img className={styles.divisao} src={foto} alt="divisão"></img>
       <Habilidades></Habilidades>
       <img className={styles.divisao} src={foto} alt="divisão"></img>
+      <Projetos></Projetos>
+
     </div>
   );
 }

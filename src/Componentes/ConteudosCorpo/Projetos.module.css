@@ -1,0 +1,44 @@
+.corpo{
+    
+}
+.corpo h1{
+    padding-bottom: 1em;
+
+}
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.caixa{
+    background-color: rgb(46, 45, 45);
+    width: 50em;
+    height: 15em;
+    color: white;
+
+}
+.caixa img{
+    width: 7em;
+    height: 10em;
+}
+
+.flechaEsquerda{
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flechaEsquerda svg{
+    width: 3em;
+    height: 3em;
+}
+.flechaDireita{
+    margin-left: 1em; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flechaDireita svg{
+    width: 3em;
+    height: 3em;
+}
