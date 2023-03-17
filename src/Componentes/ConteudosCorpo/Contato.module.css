@@ -1,0 +1,46 @@
+.corpo h1{
+    margin: .5em;
+}
+.formulario label, input, textarea,button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+    font-size: large;
+
+}
+.formulario label{
+    background-color: #4940ee;
+    height: 2.5em;
+}
+
+.formulario input{
+    background-color: white;
+    height: 2.5em;
+}
+
+.formulario textarea{
+    background-color: white;
+    height: 10em;
+}
+.formulario button{
+    background-color: white;
+    height: 3em;
+    width: 10em;
+    margin-top: 1em;
+    border-radius: 10px;
+    
+}
+
+.espaco{
+    padding-bottom: 5em;
+}
+
+@media screen and (max-width: 750px){
+    .formulario label, input, textarea{
+        width: 80%;
+    }
+    
+}

@@ -45,7 +45,7 @@
   }
   
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 875px) {
   .corpo ul {
     display: none;
   }
