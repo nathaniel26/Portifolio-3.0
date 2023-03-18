@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import styles from "./Projetos.module.css";
 import { useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -39,7 +40,7 @@ function Projetos() {
 
   return (
     <div className={styles.corpo}>
-      <h1>Projetos</h1>
+      <h1 id="projetos">Projetos</h1>
 
       <div className={styles.carrossel}>
         <div className={styles.flechaEsquerda} onClick={handleLeftArrow}>
@@ -54,13 +55,16 @@ function Projetos() {
                 O site do grupo de ensino, extensão e pesquisa do curso de
                 Licenciatura em Geografia da Universidade Federal de Pelotas
                 (UFPel) é a plataforma ideal para quem busca materiais de
-                qualidade sobre ensino de geografia com jogos. Nesse espaço,
-                disponibilizamos os materiais produzidos por nossa equipe, bem
-                como referências teóricas de autores que seguem essa mesma linha
-                de pesquisa.
+                qualidade sobre ensino de geografia com jogos.
               </p>
               <h3>React js - Html - Css</h3>
+              
               <h3>Site</h3>
+              <a
+                target="_blank"
+                href="https://geografiaemjogosufpel.netlify.app/"
+                rel="noreferrer"
+              >Link</a>
             </div>
           </div>
         )}
@@ -79,6 +83,11 @@ function Projetos() {
               </p>
               <h3>C#/Unity</h3>
               <h3>Game - Android</h3>
+              <a
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.NFstudio.FlyFlyKoronga"
+                rel="noreferrer"
+              >Link</a>
             </div>
           </div>
         )}
@@ -97,6 +106,11 @@ function Projetos() {
               </p>
               <h3>C#/Unity</h3>
               <h3>Game - Android</h3>
+              <a
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.NFstudio.HomemvsMaquina"
+                rel="noreferrer"
+              >Link</a>
             </div>
           </div>
         )}

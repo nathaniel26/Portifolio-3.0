@@ -3,6 +3,7 @@ import { Component } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { BsFacebook, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 class MenuMobile extends Component {
   state = { clicou: false };
@@ -28,7 +29,7 @@ class MenuMobile extends Component {
               animate={{ scale: 1 }}
               transition={{ duration: 1.5 }}
             >
-              Inicio
+              <li><Link to="inicio" spy={true} smooth={true} offset={-300} duration={50} onClick={this.clique}>Início</Link></li>
             </motion.h1>
 
             <motion.h1
@@ -36,7 +37,7 @@ class MenuMobile extends Component {
               animate={{ scale: 1 }}
               transition={{ duration: 1.5 }}
             >
-              Habilidades
+               <li><Link to="habilidades" spy={true} smooth={true} offset={-100} duration={50} onClick={this.clique}>Habilidades</Link></li>
             </motion.h1>
 
             <motion.h1
@@ -44,7 +45,7 @@ class MenuMobile extends Component {
               animate={{ scale: 1 }}
               transition={{ duration: 1.5 }}
             >
-              Projetos
+              <li><Link to="projetos" spy={true} smooth={true} offset={-80} duration={50} onClick={this.clique}>Projetos</Link></li>
             </motion.h1>
 
             <motion.h1
@@ -52,7 +53,7 @@ class MenuMobile extends Component {
               animate={{ scale: 1 }}
               transition={{ duration: 1.5 }}
             >
-              Contato
+              <li><Link to="contato" spy={true} smooth={true} offset={-80} duration={50} onClick={this.clique}>Contato</Link></li>
             </motion.h1>
 
             <motion.div

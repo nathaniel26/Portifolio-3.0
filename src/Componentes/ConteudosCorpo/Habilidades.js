@@ -15,7 +15,7 @@ import { FaJava } from "react-icons/fa";
 function Habilidades() {
   return (
     <div className={styles.container}>
-      <h1>Habilidades</h1>
+      <h1 id="habilidades">Habilidades</h1>
 
       {/*-------------Web---------------*/}
       <div className={styles.icons}>

@@ -11,7 +11,7 @@
 }
 
 .caixa {
-  background-color: rgb(46, 45, 45);
+  background-color: rgb(34, 33, 33);
   width: 40em;
   height: 20em;
   border: 2px solid white;
@@ -34,8 +34,17 @@
   text-align: center;
 }
 .desc p {
-  text-align: justify;
+  text-align: center;
   padding: 0.5em 0;
+}
+.desc a{
+  color: #cfd1f5;
+  font-size: x-large;
+  text-decoration: none;
+  cursor: pointer;
+}
+.desc a:hover{
+  color: white;
 }
 
 .flechaEsquerda {
@@ -63,7 +72,7 @@
   .caixa {
     display: block;
     width: 30em;
-    height: 35em;
+    height: 33em;
   }
 
   .caixa img {

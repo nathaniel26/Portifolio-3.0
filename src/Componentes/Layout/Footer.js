@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.corpo}>
-      <p>Footer</p>
+      <p>© 2023 Desenvolvido Por: Nathaniel Farias.</p>
     </footer>
   );
 }

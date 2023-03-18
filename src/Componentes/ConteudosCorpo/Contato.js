@@ -2,7 +2,7 @@ import styles from "./Contato.module.css";
 function Contato() {
   return (
     <div className={styles.corpo}>
-      <h1>Contato</h1>
+      <h1 id="contato">Contato</h1>
       <div className={styles.corpo}>
         <form
           action="https://formsubmit.co/nathaniel.farias@gmail.com"
